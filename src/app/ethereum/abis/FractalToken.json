@@ -47,12 +47,12 @@
       "type": "function"
     }
   ],
-  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"fractal_id\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getFractalId\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"setFractalId\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/prica/Desktop/fractal-nft/fractal-nft/src/app/ethereum/contracts/FractalToken.sol\":\"FractalToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/prica/Desktop/fractal-nft/fractal-nft/src/app/ethereum/contracts/FractalToken.sol\":{\"keccak256\":\"0x24405697819d1352fde5de528462b9a4700f2cd930c563caacf3e2036d4338e8\",\"urls\":[\"bzz-raw://ffa45bc48ddd2f817f9e7ded494cbfaec5bcfd6b99ca7b6c81b44eeb2953a954\",\"dweb:/ipfs/QmWZWWtiS6zfQBHNrQ3vspKBwSqdwwzbL2TTLJ8ZpjfGDA\"]}},\"version\":1}",
-  "bytecode": "0x608060405234801561001057600080fd5b5060f28061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632b7563aa146041578063c475b3fe14605d578063f53c23f0146088575b600080fd5b604760a4565b6040518082815260200191505060405180910390f35b608660048036036020811015607157600080fd5b810190808035906020019092919050505060ad565b005b608e60b7565b6040518082815260200191505060405180910390f35b60008054905090565b8060008190555050565b6000548156fea265627a7a72315820fa5f237ec922c4d1378bce5da633fb0b4766779abeaa66b8fb263f7fb0c93a3164736f6c63430005100032",
-  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632b7563aa146041578063c475b3fe14605d578063f53c23f0146088575b600080fd5b604760a4565b6040518082815260200191505060405180910390f35b608660048036036020811015607157600080fd5b810190808035906020019092919050505060ad565b005b608e60b7565b6040518082815260200191505060405180910390f35b60008054905090565b8060008190555050565b6000548156fea265627a7a72315820fa5f237ec922c4d1378bce5da633fb0b4766779abeaa66b8fb263f7fb0c93a3164736f6c63430005100032",
-  "sourceMap": "36:210:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:210:0;;;;;;;",
-  "deployedSourceMap": "36:210:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:210:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;91:81;;;:::i;:::-;;;;;;;;;;;;;;;;;;;178:65;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;178:65:0;;;;;;;;;;;;;;;;;:::i;:::-;;62:22;;;:::i;:::-;;;;;;;;;;;;;;;;;;;91:81;137:4;156:10;;149:17;;91:81;:::o;178:65::-;235:2;222:10;:15;;;;178:65;:::o;62:22::-;;;;:::o",
-  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract FractalToken{\r\n  uint public fractal_id;\r\n\r\n  function getFractalId() external view returns(uint){\r\n    return fractal_id;\r\n  }\r\n\r\n  function setFractalId(uint id) public{\r\n    fractal_id = id;\r\n  }\r\n}\r\n",
+  "metadata": "{\"compiler\":{\"version\":\"0.5.16+commit.9c3226ce\"},\"language\":\"Solidity\",\"output\":{\"abi\":[{\"constant\":true,\"inputs\":[],\"name\":\"fractal_id\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":true,\"inputs\":[],\"name\":\"getFractalId\",\"outputs\":[{\"internalType\":\"uint256\",\"name\":\"\",\"type\":\"uint256\"}],\"payable\":false,\"stateMutability\":\"view\",\"type\":\"function\"},{\"constant\":false,\"inputs\":[{\"internalType\":\"uint256\",\"name\":\"id\",\"type\":\"uint256\"}],\"name\":\"setFractalId\",\"outputs\":[],\"payable\":false,\"stateMutability\":\"nonpayable\",\"type\":\"function\"}],\"devdoc\":{\"methods\":{}},\"userdoc\":{\"methods\":{}}},\"settings\":{\"compilationTarget\":{\"/C/Users/prica/Desktop/fractal-nft/fractal-nft/src/app/ethereum/contracts/FractalToken.sol\":\"FractalToken\"},\"evmVersion\":\"istanbul\",\"libraries\":{},\"optimizer\":{\"enabled\":false,\"runs\":200},\"remappings\":[]},\"sources\":{\"/C/Users/prica/Desktop/fractal-nft/fractal-nft/src/app/ethereum/contracts/FractalToken.sol\":{\"keccak256\":\"0x52be1313c2705f73a0075e21dd5a11300a8e93d7aa91f1a644b0e1185803b6d1\",\"urls\":[\"bzz-raw://906764b2a77b7e991e67899a1c990ecffbb0ed40d73aa1ab976af9070ff57259\",\"dweb:/ipfs/QmNWqF2RdQJic7ESuRpJnEWTSA7kz3gQ7k4R3KQWU99b2Y\"]}},\"version\":1}",
+  "bytecode": "0x608060405234801561001057600080fd5b5060f28061001f6000396000f3fe6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632b7563aa146041578063c475b3fe14605d578063f53c23f0146088575b600080fd5b604760a4565b6040518082815260200191505060405180910390f35b608660048036036020811015607157600080fd5b810190808035906020019092919050505060ad565b005b608e60b7565b6040518082815260200191505060405180910390f35b60008054905090565b8060008190555050565b6000548156fea265627a7a7231582026113eb77c5325ff08ca9b9a7074d0aa924456a4f40ccecad9d53cfa7658b56164736f6c63430005100032",
+  "deployedBytecode": "0x6080604052348015600f57600080fd5b5060043610603c5760003560e01c80632b7563aa146041578063c475b3fe14605d578063f53c23f0146088575b600080fd5b604760a4565b6040518082815260200191505060405180910390f35b608660048036036020811015607157600080fd5b810190808035906020019092919050505060ad565b005b608e60b7565b6040518082815260200191505060405180910390f35b60008054905090565b8060008190555050565b6000548156fea265627a7a7231582026113eb77c5325ff08ca9b9a7074d0aa924456a4f40ccecad9d53cfa7658b56164736f6c63430005100032",
+  "sourceMap": "36:213:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:213:0;;;;;;;",
+  "deployedSourceMap": "36:213:0:-;;;;8:9:-1;5:2;;;30:1;27;20:12;5:2;36:213:0;;;;;;;;;;;;;;;;;;;;;;;;;;;;;92:82;;;:::i;:::-;;;;;;;;;;;;;;;;;;;180:66;;;;;;13:2:-1;8:3;5:11;2:2;;;29:1;26;19:12;2:2;180:66:0;;;;;;;;;;;;;;;;;:::i;:::-;;63:22;;;:::i;:::-;;;;;;;;;;;;;;;;;;;92:82;139:4;158:10;;151:17;;92:82;:::o;180:66::-;238:2;225:10;:15;;;;180:66;:::o;63:22::-;;;;:::o",
+  "source": "pragma solidity >=0.4.22 <0.9.0;\r\n\r\ncontract FractalToken {\r\n  uint public fractal_id;\r\n\r\n  function getFractalId() external view returns (uint){\r\n    return fractal_id;\r\n  }\r\n\r\n  function setFractalId(uint id) public {\r\n    fractal_id = id;\r\n  }\r\n}\r\n",
   "sourcePath": "C:/Users/prica/Desktop/fractal-nft/fractal-nft/src/app/ethereum/contracts/FractalToken.sol",
   "ast": {
     "absolutePath": "/C/Users/prica/Desktop/fractal-nft/fractal-nft/src/app/ethereum/contracts/FractalToken.sol",
@@ -97,7 +97,7 @@
             "name": "fractal_id",
             "nodeType": "VariableDeclaration",
             "scope": 22,
-            "src": "62:22:0",
+            "src": "63:22:0",
             "stateVariable": true,
             "storageLocation": "default",
             "typeDescriptions": {
@@ -108,7 +108,7 @@
               "id": 2,
               "name": "uint",
               "nodeType": "ElementaryTypeName",
-              "src": "62:4:0",
+              "src": "63:4:0",
               "typeDescriptions": {
                 "typeIdentifier": "t_uint256",
                 "typeString": "uint256"
@@ -121,7 +121,7 @@
             "body": {
               "id": 10,
               "nodeType": "Block",
-              "src": "142:30:0",
+              "src": "144:30:0",
               "statements": [
                 {
                   "expression": {
@@ -131,7 +131,7 @@
                     "nodeType": "Identifier",
                     "overloadedDeclarations": [],
                     "referencedDeclaration": 3,
-                    "src": "156:10:0",
+                    "src": "158:10:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -140,7 +140,7 @@
                   "functionReturnParameters": 7,
                   "id": 9,
                   "nodeType": "Return",
-                  "src": "149:17:0"
+                  "src": "151:17:0"
                 }
               ]
             },
@@ -155,7 +155,7 @@
               "id": 4,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "112:2:0"
+              "src": "113:2:0"
             },
             "returnParameters": {
               "id": 7,
@@ -167,7 +167,7 @@
                   "name": "",
                   "nodeType": "VariableDeclaration",
                   "scope": 11,
-                  "src": "137:4:0",
+                  "src": "139:4:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -178,7 +178,7 @@
                     "id": 5,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "137:4:0",
+                    "src": "139:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -188,10 +188,10 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "136:6:0"
+              "src": "138:6:0"
             },
             "scope": 22,
-            "src": "91:81:0",
+            "src": "92:82:0",
             "stateMutability": "view",
             "superFunction": null,
             "visibility": "external"
@@ -200,7 +200,7 @@
             "body": {
               "id": 20,
               "nodeType": "Block",
-              "src": "215:28:0",
+              "src": "218:28:0",
               "statements": [
                 {
                   "expression": {
@@ -217,7 +217,7 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 3,
-                      "src": "222:10:0",
+                      "src": "225:10:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
@@ -232,13 +232,13 @@
                       "nodeType": "Identifier",
                       "overloadedDeclarations": [],
                       "referencedDeclaration": 13,
-                      "src": "235:2:0",
+                      "src": "238:2:0",
                       "typeDescriptions": {
                         "typeIdentifier": "t_uint256",
                         "typeString": "uint256"
                       }
                     },
-                    "src": "222:15:0",
+                    "src": "225:15:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -246,7 +246,7 @@
                   },
                   "id": 19,
                   "nodeType": "ExpressionStatement",
-                  "src": "222:15:0"
+                  "src": "225:15:0"
                 }
               ]
             },
@@ -267,7 +267,7 @@
                   "name": "id",
                   "nodeType": "VariableDeclaration",
                   "scope": 21,
-                  "src": "200:7:0",
+                  "src": "202:7:0",
                   "stateVariable": false,
                   "storageLocation": "default",
                   "typeDescriptions": {
@@ -278,7 +278,7 @@
                     "id": 12,
                     "name": "uint",
                     "nodeType": "ElementaryTypeName",
-                    "src": "200:4:0",
+                    "src": "202:4:0",
                     "typeDescriptions": {
                       "typeIdentifier": "t_uint256",
                       "typeString": "uint256"
@@ -288,26 +288,26 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "199:9:0"
+              "src": "201:9:0"
             },
             "returnParameters": {
               "id": 15,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "215:0:0"
+              "src": "218:0:0"
             },
             "scope": 22,
-            "src": "178:65:0",
+            "src": "180:66:0",
             "stateMutability": "nonpayable",
             "superFunction": null,
             "visibility": "public"
           }
         ],
         "scope": 23,
-        "src": "36:210:0"
+        "src": "36:213:0"
       }
     ],
-    "src": "0:248:0"
+    "src": "0:251:0"
   },
   "legacyAST": {
     "attributes": {
@@ -372,12 +372,12 @@
                 },
                 "id": 2,
                 "name": "ElementaryTypeName",
-                "src": "62:4:0"
+                "src": "63:4:0"
               }
             ],
             "id": 3,
             "name": "VariableDeclaration",
-            "src": "62:22:0"
+            "src": "63:22:0"
           },
           {
             "attributes": {
@@ -404,7 +404,7 @@
                 "children": [],
                 "id": 4,
                 "name": "ParameterList",
-                "src": "112:2:0"
+                "src": "113:2:0"
               },
               {
                 "children": [
@@ -427,17 +427,17 @@
                         },
                         "id": 5,
                         "name": "ElementaryTypeName",
-                        "src": "137:4:0"
+                        "src": "139:4:0"
                       }
                     ],
                     "id": 6,
                     "name": "VariableDeclaration",
-                    "src": "137:4:0"
+                    "src": "139:4:0"
                   }
                 ],
                 "id": 7,
                 "name": "ParameterList",
-                "src": "136:6:0"
+                "src": "138:6:0"
               },
               {
                 "children": [
@@ -458,22 +458,22 @@
                         },
                         "id": 8,
                         "name": "Identifier",
-                        "src": "156:10:0"
+                        "src": "158:10:0"
                       }
                     ],
                     "id": 9,
                     "name": "Return",
-                    "src": "149:17:0"
+                    "src": "151:17:0"
                   }
                 ],
                 "id": 10,
                 "name": "Block",
-                "src": "142:30:0"
+                "src": "144:30:0"
               }
             ],
             "id": 11,
             "name": "FunctionDefinition",
-            "src": "91:81:0"
+            "src": "92:82:0"
           },
           {
             "attributes": {
@@ -512,17 +512,17 @@
                         },
                         "id": 12,
                         "name": "ElementaryTypeName",
-                        "src": "200:4:0"
+                        "src": "202:4:0"
                       }
                     ],
                     "id": 13,
                     "name": "VariableDeclaration",
-                    "src": "200:7:0"
+                    "src": "202:7:0"
                   }
                 ],
                 "id": 14,
                 "name": "ParameterList",
-                "src": "199:9:0"
+                "src": "201:9:0"
               },
               {
                 "attributes": {
@@ -533,7 +533,7 @@
                 "children": [],
                 "id": 15,
                 "name": "ParameterList",
-                "src": "215:0:0"
+                "src": "218:0:0"
               },
               {
                 "children": [
@@ -562,7 +562,7 @@
                             },
                             "id": 16,
                             "name": "Identifier",
-                            "src": "222:10:0"
+                            "src": "225:10:0"
                           },
                           {
                             "attributes": {
@@ -576,37 +576,37 @@
                             },
                             "id": 17,
                             "name": "Identifier",
-                            "src": "235:2:0"
+                            "src": "238:2:0"
                           }
                         ],
                         "id": 18,
                         "name": "Assignment",
-                        "src": "222:15:0"
+                        "src": "225:15:0"
                       }
                     ],
                     "id": 19,
                     "name": "ExpressionStatement",
-                    "src": "222:15:0"
+                    "src": "225:15:0"
                   }
                 ],
                 "id": 20,
                 "name": "Block",
-                "src": "215:28:0"
+                "src": "218:28:0"
               }
             ],
             "id": 21,
             "name": "FunctionDefinition",
-            "src": "178:65:0"
+            "src": "180:66:0"
           }
         ],
         "id": 22,
         "name": "ContractDefinition",
-        "src": "36:210:0"
+        "src": "36:213:0"
       }
     ],
     "id": 23,
     "name": "SourceUnit",
-    "src": "0:248:0"
+    "src": "0:251:0"
   },
   "compiler": {
     "name": "solc",
@@ -616,12 +616,12 @@
     "5777": {
       "events": {},
       "links": {},
-      "address": "0x8a1Fb11aE50c24518d67292063B0b83c89d348f7",
-      "transactionHash": "0x98713e9c58cfa26cfd4b699f92d1e3ae994653e5c8b956994ac6aec9b173587f"
+      "address": "0x139dB059B81F1A5C6AeecEC815D0cD369690AbFe",
+      "transactionHash": "0xd49bccf15ad18f46a011f5c6f27f5da6bdbfa500c8c122974695a816d91b24a7"
     }
   },
   "schemaVersion": "3.3.4",
-  "updatedAt": "2021-02-21T13:34:04.918Z",
+  "updatedAt": "2021-02-21T14:23:51.768Z",
   "networkType": "ethereum",
   "devdoc": {
     "methods": {}

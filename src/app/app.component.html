@@ -1,1 +1,8 @@
-<router-outlet></router-outlet>
+<div *ngIf="initialized$ | async; else notInitialized">
+  <router-outlet>
+  </router-outlet>
+</div>
+<ng-template #notInitialized>
+  lalala
+</ng-template>
+
